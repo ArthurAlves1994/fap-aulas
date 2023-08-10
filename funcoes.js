@@ -1,3 +1,4 @@
+
 // function imprimirLista(nome, idade, dia, mes, ano) {
 //     console.log(`Boa tarde ${ nome }, notei que vc tem ${ idade }, hoje e ${ dia }, de ${ mes }, de ${ ano }`)
 // }
@@ -10,5 +11,10 @@
 // dobro(10)
 
 // function mostrarNumero(inicio, fim){console.log(`informe os numeros para inicio e ${inicio}, fim ${fim}`);}
-// mostrarNumero(10,20)
-
+// // mostrarNumero(10,20)
+// function exibirSaudacao(nome, saudacao= "olá"){
+//     console.log(`${saudacao}, ${nome}`);
+// }
+// exibirSaudacao(`olá arthur`)
+const readline = require (`readline-sync`)
+var nome = readline.question ("qual seu nome")
