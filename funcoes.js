@@ -40,3 +40,29 @@
 //     console.log(num1 / num2);
 // }
 // divisao(2,2)
+
+// function fatorial(n) {
+//     if (n === 0 || n === 1) {
+//         return 1; // caso base: fatorial de 0 e 1 é 1    
+//     } else {
+//         return n * fatorial(n - 1); // chamada recursiva}
+
+//     }
+// }
+// // teste a função
+// let numero = 1;
+// console.log(`O fatorial de ${numero} é ${fatorial(numero)}`);
+
+// function somaRecursiva(n) {
+//     if (n === 1) {
+//       return 1; // Caso base: a soma de um número é ele mesmo
+//     } else {
+//       return n + somaRecursiva(n - 1); // Chamada recursiva
+//     }
+//   }
+  
+//   // Teste da função
+//   const numero = n;
+//   const resultado = somaRecursiva(numero);
+//   console.log(`A soma dos números de 1 até ${numero} é ${resultado}`)
+
